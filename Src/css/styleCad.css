@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, rgb(77, 0, 179) 0%, rgba(132, 0, 255, 0.85) 100%);
+}
+
+.container {
+    width: 350px;
+    margin: 60px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #ccc;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin: 8px 0px 16px 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+
+
+nav {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.butnav {
+    background-color: #8f3aff;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-left: 20px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.butnav:hover {
+    background: linear-gradient(90deg, #ae5dfa 0%, #8f3aff 100%);
+    scale: 1.3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.295);
+    transition: 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navesq {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-grow: 1;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: 0;
+    margin-right: 20px;
+    transition: 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    filter: drop-shadow(5px 5px 5px rgb(213, 108, 255));
+}
+
+.txtNav {
+    color: #8f3aff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 0;
+    transition: color 0.3s ease;
+}
+
+.txtNav:hover {
+    color: #a23eff;
+    scale: 1.1;
+    text-shadow: #8f3aff 0px 0px 10px;
+    transition: 0.3s;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.txtNav {
+    color: #8f3aff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.4s ease;
+}

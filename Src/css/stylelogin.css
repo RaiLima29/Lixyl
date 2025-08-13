@@ -1,0 +1,150 @@
+body {
+            background-color: #8c52ff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(90deg,rgb(77, 0, 179) 0%, #8c52ff 100% );
+            font-family: Arial, sans-serif;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            margin: 0;
+        }
+        .loginCard {
+            background: #fff;
+            padding: 32px 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+            min-width: 320px;
+            margin-top: 20vh;
+            align-content: center;
+        }
+        h2 {
+            color:rgb(157, 10, 255);
+            margin-bottom: 24px;
+            text-align: center;
+        }
+        label {
+            color: #333;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 6px;
+        }
+        input {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 18px;
+            border: 1px solid #bdbdbd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .loginCard button {
+            width: 100%;
+            padding: 12px;
+            background:rgb(157, 10, 255);
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.2s ease;
+        }
+        
+        .login-container button:hover {
+            background: #1565c0;
+        }
+
+        nav {
+        background-color: #f1f1f1;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .butnav {
+            background-color: #8f3aff;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 15px;
+            margin-left: 20px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .butnav:hover {
+            background: linear-gradient(90deg, #ae5dfa 0%, #8f3aff 100%);
+            scale: 1.3;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.295);
+            transition: 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .navesq {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            flex-grow: 1;
+        }
+
+        .logo {
+            width: 90px;
+            height: 90px;
+            display: block;
+            margin: 0;
+            margin-right: 20px;
+            transition: 0.3s ease;
+        }
+
+        .logo:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease;
+            filter: drop-shadow(5px 5px 5px rgb(213, 108, 255));
+        }
+
+        .txtNav {
+            color: #8f3aff;
+            font-size: 18px;
+            text-decoration: none;
+            margin-left: 0;
+            transition: color 0.3s ease;
+        }
+
+        .txtNav:hover {
+            color: #a23eff;
+            scale: 1.1;
+            text-shadow: #8f3aff 0px 0px 10px;
+            transition: 0.3s;
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+        }
+
+        .txtNav {
+            color: #8f3aff;
+            font-size: 18px;
+            text-decoration: none;
+            margin-left: 20px;
+            transition: color 0.4s ease;
+        }
